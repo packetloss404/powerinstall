@@ -1,0 +1,30 @@
+# Power Install — repo-local ignores
+
+# Runtime artifacts
+*.log
+PowerInstall-*.log
+install-*.log
+
+# IDE / editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Windows
+*.lnk
+desktop.ini
+
+# Local-only overrides
+Packages.local.ps1
+.env
+.env.local
+
+# Build / packaging output
+dist/
+out/
+*.zip
+*.7z
